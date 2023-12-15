@@ -88,8 +88,16 @@ p {
 	text-decoration: underline;
 }
 
+.image-container {
+	text-align: center;
+	padding: 8px;
+}
+
 @media (max-width: 576px) {
 	.launch {
 		text-align: center;
+	}
+	.about-paragraphs {
+		display: block;
 	}
 }
